@@ -1,28 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-body{
-    background-color: black;
 
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
-.container{
+
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
-#clock{
+
+#clock {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 25rem;
+    font-size: 15vw; /* Font size will adjust according to viewport width */
     font-weight: 1000;
-    padding: 25px 30px;
+    padding: 10px;
     border-radius: 10px;
     border: 5px solid white;
     color: aqua;
+    max-width: 90vw;
+    max-height: 90vh;
 }
 
 /* Media query for smaller screens */
