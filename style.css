@@ -28,14 +28,14 @@ body{
 /* Media query for smaller screens */
 @media (max-width: 768px) {
     #clock {
-        font-size: 25vw; /* Larger relative font size for smaller screens */
+        font-size: 15vw; /* Larger relative font size for smaller screens */
         padding: 5px;
     }
 }
 
 @media (max-width: 480px) {
     #clock {
-        font-size: 35vw;
+        font-size: 15vw;
         padding: 2px;
     }
 }
